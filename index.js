@@ -14,11 +14,11 @@ function goToLink3() {
 }
 function goToLink4() {
     // Change the URL to the link you've provided
-    window.open("https://registration-2arj.onrender.com", "_blank");
+    window.open("https://landing-page-d3jk.onrender.com", "_blank");
 }
 function goToLink5() {
     // Change the URL to the link you've provided
-    window.open("https://registration-2arj.onrender.com", "_blank");
+    window.open("https://calc-og86.onrender.com", "_blank");
 }
 
 
