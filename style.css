@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+    font-family: cursive;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+  padding: 10px 0px;
+}
+/* NavBar */
+
+.header {
+  background-color: rgb(247,247,247);
+}
+
+.myname {
+    font-family: 'Sacramento';
+    font-size: 2.5rem;
+}
+.navbar {
+    padding: 1% 8% 0%;
+}
+
+.nav-item {
+    font-size: 1rem;
+    padding: 0.5rem 0.4rem;
+}
+
+#heading {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* self intro */
+
+.self-intro {
+    padding: 0% 8% 0%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+h3{
+  display: inline-block;
+}
+
+.self-intro a{
+  text-decoration: none;
+}
+.self-intro a .my-media{
+  width: 37px;
+  height: 37px;
+  margin-right: 7px;
+}
+
+.self-intro p {
+    display: flex;
+    line-height: 2;
+}
+
+.my-img {
+    width: 40%;
+    float: right;
+    margin-left: 30px ;
+}
+
+.self-intro img {
+    width: 542px;
+    height: 400px;
+}
+
+
+/* primary-btn  */
+.primary-btn {
+    padding: 40px 0px 50px;
+}
+
+.primary-btn a{
+    margin-right: 37px;
+    background-color: rgb(124, 108, 218);
+    color: white;
+}
+
+/* Services */
+
+.skill-row {
+    padding: 4% 8% 6%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-row p {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.skill-row img {
+    width: 542px;
+    height: 450px;
+    float: left;
+    margin-right: 30px ;
+}
+
+.my-skills-first{
+  display: inline-block;
+  margin: 0px 70px ;
+}
+.my-skills-sec{
+  display: inline-block;
+  margin: 0px 140px ;
+}
+
+.skill-row div img{
+  width: 40px;
+  height: 40px;
+  margin: 10px 6px;
+  opacity: 0.5;
+}
+
+
+ul {
+    list-style: none;
+    }
+    
+    .work::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-image: url(views/bolt_7625422.png);
+    margin-right: 5px;
+    }
+
+
+/* skills */
+
+.skills {
+    padding: 0% 8% 0%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-bars{
+    padding: 30px 30px;
+    width: 600px; 
+    height: 380px;
+    margin-bottom: 100px;
+  }
+  .bar{
+    margin: 20px 0;
+    padding: 8px 0;
+  }
+  .bar:first-child{
+    margin-top: 0px;
+  }
+  .info{
+    margin-bottom: 5px;
+  }
+  .info span{
+    font-weight: 500;
+    font-size: 17px; opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+  }
+  @keyframes showText {
+    100%{
+      opacity: 1;
+    }
+  }
+  .progress-line{
+    height: 15px; width: 100%;
+    background: #f0f0f0; position: relative;
+    transform: scaleX(0); transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                0 1px rgba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  .progress-line span{
+    height: 100%; position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: rgb(161, 150, 223);
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  .progress-line span::before{
+    position: absolute; content: "";
+    top: -10px; right: 0;
+    height: 0; width: 0; opacity: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  .progress-line span::after{
+    position: absolute; top: -28px;
+    right: 0; font-weight: 500;
+    background: #000;
+    color: #fff; opacity: 0;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .html span{
+    width: 84%;
+  }
+  .css span{
+    width: 92%;
+  }
+  .JavaScript span{
+    width: 60%;
+  }
+  .react span{
+    width: 40%;
+  }
+  @keyframes showText2 {
+    100%{
+      opacity: 1;
+    }
+  }
+  .html span::after{
+    content: "84%";
+  }
+  .css span::after{
+    content: "92%";
+  }
+  .JavaScript span::after{
+    content: "60%";
+  }
+  .react span::after{
+    content: "40%";
+  }
+  /* Media Query */
+  /* For tablet */
+  @media screen and (max-width:900px){
+    h1{
+      font-size: 2rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 3px 4px black;
+    }
+    .skill-bars{
+    padding: 15px 20px;
+    width: 600px; 
+    /* background: #fff; */
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    }
+  }
+  /* For mobile */
+  @media screen and (max-width :600px) {
+    h1{
+      font-size: 1rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 3px 4px black;
+    }
+    .skill-bars{
+      padding: 10px 10px;
+      width: 280px; 
+      /* background: #fff; */
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+      border-radius: 8px;
+    
+    }
+    
+  }
+
+  .pro-img {
+    width: 40%;
+    float: right;
+    margin-left: 30px ;
+}
+
+/* Achievements */
+
+.achieve{
+  padding: 0% 8% 0%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.achieve .card{
+    margin: 15px;
+}
+
+.achieve .card img{
+  height: 50%;
+  width: 50%;
+}
+
+
+
+/* projects */
+
+.projects{
+  padding: 0% 8% 0%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.projects .card{
+  text-align: center;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 1% 12% 0%;
+}
+
+.projects .card img{
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.projects .card .card-title{
+  border: 1px solid black;
+}
+
+h5:hover{
+  background-color: rgb(161, 150, 223);
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* footer */
+#footer {
+  padding:  5% 15%;
+  font-size: small;
+  background-color: rgb(247,247,247);
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#footer a i{
+  color: black;
+  margin: 20px 6px;
+}
+
+#footer a i:hover{
+  color: rgb(124, 108, 218)
+}
+
