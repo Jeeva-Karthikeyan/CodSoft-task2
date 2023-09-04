@@ -457,13 +457,12 @@ ul {
         margin: 0 70px;
     }
   }
-  @media only screen and (min-width:1030px) {
+/*   @media only screen and (min-width:1030px) {
     #services .skill-row h3{
         display: block;
         font-size: 2rem;
         text-align: left;
         width: 100%;
-        /* padding: 20px 0; */
     }
     #services .skill-row .my-img{
         width: 100%;
@@ -478,7 +477,7 @@ ul {
       display: inline-block;
       margin: 0px 140px ;
     }
-  }
+  } */
   
   /* skills starts*/
 
