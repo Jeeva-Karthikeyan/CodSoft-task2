@@ -383,7 +383,10 @@ ul {
   }
   
   /* home */
-@media only screen and all (max-width:700px) {
+@media only screen and (max-width:700px) {
+  #home{
+    font-family: sans-serif;
+  }
   #home .self-intro .my-img{
     width: 100%;
     height: 100%;
@@ -394,7 +397,7 @@ ul {
     margin: 40px auto 20px;
   }
 
-  #home .self-intro h3, p,.media,.primary-btn{
+  #home .self-intro h1, p,.media,.primary-btn{
     text-align: center;
   }
 
@@ -404,11 +407,13 @@ ul {
   }
 }
 
+/* home ends */
+
 /* services starts*/
 
-/* @media only screen and (max-width:1300px) {
+/* @media only screen and (max-width:1030px) {
     #services .skill-row .code-img{
-      width: 80%;
+      width: 50%;
       height: 90%;
       text-align: center;
       margin: 50px auto;
@@ -420,8 +425,18 @@ ul {
     #services .skill-row h3, p, .my-skills{
       text-align: center;
     }
+    #services .skill-row .my-skills .my-skills-first{
+      width: 70%;
+      }
+    #services .skill-row .my-skills .my-skills-sec{
+        width: 80%;
+        margin: 0 70px;
+    }
   } */
 @media only screen and (max-width:700px) {
+    #services{
+        font-family: sans-serif;
+    }
     #services .skill-row h3{
         display: block;
         font-size: 1.7rem;
@@ -442,12 +457,34 @@ ul {
         margin: 0 70px;
     }
   }
-  
+  @media only screen and (min-width:1030px) {
+    #services .skill-row h3{
+        display: block;
+        font-size: 2rem;
+        text-align: left;
+        width: 100%;
+        /* padding: 20px 0; */
+    }
+    #services .skill-row .my-img{
+        width: 100%;
+        height: 100%;
+      }
+    
+    #services .skill-row .my-skills .my-skills-first{
+      display: inline-block;
+      margin: 0px 70px ;
+    }
+    #services .skill-row .my-skills .my-skills-sec{
+      display: inline-block;
+      margin: 0px 140px ;
+    }
+  }
   
   /* skills starts*/
 
   @media only screen and (max-width:700px) {
     #skills {
+        font-family: sans-serif;
         margin: 0 auto;
     }
     #skills .skills h1{
@@ -470,6 +507,7 @@ ul {
   @media only screen and (max-width:700px) {
     #achievements {
         margin: 0 auto;
+        font-family: sans-serif;
     }
     #achievements .achieve h1{
       display: block;
@@ -489,6 +527,9 @@ ul {
     /* projects starts */
 
     @media only screen and (max-width:700px) {
+        #projects{
+          font-family: sans-serif;
+        }
         #projects .projects h1{
           display: block;
           font-size: 1.7rem;
