@@ -222,7 +222,7 @@ ul {
   width: 84%;
 }
 .css span{
-  width: 92%;
+  width: 80%;
 }
 .JavaScript span{
   width: 60%;
@@ -239,13 +239,13 @@ ul {
   content: "84%";
 }
 .css span::after{
-  content: "92%";
+  content: "80%";
 }
 .JavaScript span::after{
   content: "60%";
 }
 .react span::after{
-  content: "80%";
+  content: "50%";
 }
 
 /* Media Query */
