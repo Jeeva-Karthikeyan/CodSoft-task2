@@ -1,15 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-} */
-/* html,body{
-  display: grid; height: 100%;
-  place-items: center;
-  background-color: lightgray;
-} */
 body {
     font-family: cursive;
     text-align: center;
@@ -239,7 +228,7 @@ ul {
   width: 60%;
 }
 .react span{
-  width: 80%;
+  width: 50%;
 }
 @keyframes showText2 {
   100%{
