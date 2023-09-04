@@ -406,7 +406,7 @@ ul {
 
 /* services starts*/
 
-@media only screen and (max-width:1300px) {
+/* @media only screen and (max-width:1300px) {
     #services .skill-row .code-img{
       width: 80%;
       height: 90%;
@@ -420,7 +420,7 @@ ul {
     #services .skill-row h3, p, .my-skills{
       text-align: center;
     }
-  }
+  } */
 @media only screen and (max-width:700px) {
     #services .skill-row h3{
         display: block;
