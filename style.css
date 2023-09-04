@@ -457,18 +457,7 @@ ul {
         margin: 0 70px;
     }
   }
-/*   @media only screen and (min-width:1030px) {
-    #services .skill-row h3{
-        display: block;
-        font-size: 2rem;
-        text-align: left;
-        width: 100%;
-    }
-    #services .skill-row .my-img{
-        width: 100%;
-        height: 100%;
-      }
-    
+  @media only screen and (min-width:1000px) {
     #services .skill-row .my-skills .my-skills-first{
       display: inline-block;
       margin: 0px 70px ;
@@ -477,7 +466,7 @@ ul {
       display: inline-block;
       margin: 0px 140px ;
     }
-  } */
+  }
   
   /* skills starts*/
 
